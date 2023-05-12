@@ -1,0 +1,100 @@
+#chat {
+    display: flex;
+    flex-direction: row;
+    background-color: #FF69B4;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+#izquerda{
+    width: 27%;
+    background-color: #FFB6C1;
+    padding: 10px;
+    border: 3px;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+   
+}
+
+.contchat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.contimg {
+    width: 30%;
+}
+
+.foto{
+    width: 70%;
+    border-radius: 90%;
+}
+.contnombre{
+    color: black;
+    padding-right: 10px;
+}
+.contfecha{
+    color: grey;
+    font-size: 12px;
+    vertical-align: baseline;
+}
+
+#derecha{
+    background-color: #FFE4E1;
+    width: 67%;
+    padding: 10px;
+    border: 3px;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+}
+
+#chatactual{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#fotoactual{
+    width: 15%;
+    border-radius: 90%;
+}
+
+
+.conventrante{
+    display: flex;
+    flex-direction: row;
+    
+}
+.convsaliente{
+    display: flex;
+    flex-direction: row-reverse;  
+}
+.imgconv{
+    width: 8%;
+}
+.horaconv{
+    color: grey;
+    font-size: 12px;
+    width: 8%;
+}
+.textoconve{
+    background-color: #ADFF2F;
+    width: 50%;
+    font-size: 16px;
+    padding: 10px;   
+}
+.textoconvs{
+    background-color: #c3fc6d;
+    width:50%;
+    font-size: 16px;
+    padding: 10px; 
+}
+
+#separacion{
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
